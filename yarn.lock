@@ -2323,6 +2323,18 @@ domexception@^1.0.1:
   dependencies:
     webidl-conversions "^4.0.2"
 
+dotenv-parse-variables@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/dotenv-parse-variables/-/dotenv-parse-variables-0.3.0.tgz#576e9519bf21317ca60920c1d815e0b4eddf5447"
+  integrity sha512-ZQ/KWhk7xpzjWjfljG/znfUqmelXQovEZvAZlzvSVB3aSXVjG3GUlR+DiwxHEKPr7BgqjVSmWacFLkQWpCZNBQ==
+  dependencies:
+    debug "^4.1.1"
+
+dotenv@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.7.1.tgz#2a4df5317f6ccfd91f86d6fd25d8d8a103b88309"
@@ -4699,6 +4711,14 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+nestjs-easyconfig@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/nestjs-easyconfig/-/nestjs-easyconfig-1.9.0.tgz#8ca62a807a7dbfb1dcb5ba98e9f85f5807ec6dda"
+  integrity sha512-Om62Aj7JLN6CvW9JiVlUXfn2YXDiW+NvjgYidOwwcve1L6rVYaQR1Ok7K4J+f8UjNcRlp/gs+cG2LcEfO16sTQ==
+  dependencies:
+    dotenv "^8.2.0"
+    dotenv-parse-variables "^0.3.0"
 
 next-tick@1:
   version "1.1.0"
